@@ -177,12 +177,12 @@ if __name__ == '__main__':
 
 
 
-    box_plot_matplotlib(results,
-                        mapping,
-                        ['W-AFET', 'W-Attentive', 'W-our', 'W-our-NoM', 'W-our-AllC'],
-                        ['O-AFET', 'O-Attentive', 'O-our', 'O-our-NoM', 'O-our-AllC', 'O-tl-model', 'O-tl-feature'],
-                        ['B-AFET', 'B-Attentive', 'B-our', 'B-our-NoM', 'B-our-AllC', 'B-tl-model', 'B-tl-feature'],
-                        'box_plot.svg')
+#    box_plot_matplotlib(results,
+#                        mapping,
+#                        ['W-AFET', 'W-Attentive', 'W-our', 'W-our-NoM', 'W-our-AllC'],
+#                        ['O-AFET', 'O-Attentive', 'O-our', 'O-our-NoM', 'O-our-AllC', 'O-tl-model', 'O-tl-feature'],
+#                        ['B-AFET', 'B-Attentive', 'B-our', 'B-our-NoM', 'B-our-AllC', 'B-tl-model', 'B-tl-feature'],
+#                        'box_plot.svg')
 
     final_result = report_test_set_result(ckpt_directory, results)
     print('final_result')
