@@ -9,10 +9,10 @@ Download the necessary data as per instructions mentioned in data/processed/f1/R
 
 Directory structure:
 
-/home/
-- EACL-2017
-  - fnet
-  - glove.840B.300d
+- /home/
+  - EACL-2017
+    - fnet
+    - glove.840B.300d
 
 ## dependencies
 Python3 version of TensorFlow (0.10.0rc0) framework is used in this experiment.
@@ -99,4 +99,10 @@ bash scripts/tl.bash
 Report result
 ```bash
 python report_results.py ~/EACL-2017/fnet/ckpt/
+```
+
+### type-wise analysis
+Please change the dataset and the path of result file that need to be analysed type wise.
+```bash
+python class_wise_analysis.py --all_labels_file=../data/sanitized/BBN/sanitized_labels.txt  --json_file=../data/sanitized/BBN/sanitized_test.json --result_file=../ckpt/Wiki_1.2/result_7.txt --dataset=Wiki
 ```
