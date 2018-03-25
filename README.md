@@ -1,8 +1,24 @@
 # FNET
 
 ## Publication
-[Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings. Abhishek, Ashish Anand and Amit Awekar. EACL 2017.](https://arxiv.org/abs/1702.06709)
+[Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings. Abhishek, Ashish Anand and Amit Awekar. EACL 2017.](http://www.aclweb.org/anthology/E/E17/E17-1075.pdf)
 
+Please use the following BibTex code for citing this work.
+
+```
+@InProceedings{abhishek-anand-awekar:2017:EACLlong,
+  author    = {Abhishek, Abhishek  and  Anand, Ashish  and  Awekar, Amit},
+  title     = {Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings},
+  booktitle = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 1, Long Papers},
+  month     = {April},
+  year      = {2017},
+  address   = {Valencia, Spain},
+  publisher = {Association for Computational Linguistics},
+  pages     = {797--807},
+  url       = {http://www.aclweb.org/anthology/E17-1075}
+}
+
+```
 ## data
 
 Download the necessary data as per instructions mentioned in data/processed/f1/README.md file. 
