@@ -19,6 +19,10 @@ Please use the following BibTex code for citing this work.
 }
 
 ```
+### Compatibility with TensorFlow 1.10
+
+An updated version of the main code, compatible with TensorFlow 1.10 is available at [https://github.com/abhipec/FgEC](https://github.com/abhipec/FgEC). Transfer learning related experiments are not part of that code. 
+
 ## data
 
 Download the necessary data as per instructions mentioned in data/processed/f1/README.md file. 
